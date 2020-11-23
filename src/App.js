@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        App
+        
         <Nav />
         <Switch>
           <Route exact path="/" component={Home} />

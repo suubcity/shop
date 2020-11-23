@@ -1,0 +1,13 @@
+#navContainer {
+  display: flex;
+  background-color: rgb(71, 86, 85);
+  color: white;
+}
+
+#navigation {
+  display: flex;
+}
+
+li {
+  padding: 1rem;
+}
