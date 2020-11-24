@@ -1,0 +1,15 @@
+#homeContainer {
+  color: white;
+  height: calc(100vh - 3rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#splash {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.394);
+  width: 100%;
+}
+

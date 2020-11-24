@@ -1,0 +1,18 @@
+#shopContainer {
+  height: calc(100vh - 3rem);
+  
+
+}
+
+#shop {
+    background-color: rgba(255, 255, 240, 0.224);
+    height: calc(100vh - 3rem);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+}
+
+

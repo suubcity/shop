@@ -5,16 +5,22 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
     <div>
-      <nav id="navContainer">
-        <ul id="navigation">
-          <Link to="/">
-            <li>Home</li>
-          </Link>
-          <Link to="/Shop">
-            <li>Shop</li>
-          </Link>
-        </ul>
-      </nav>
+    <div id="spacer"></div>
+      <div id="navContainer">
+        <div id="innerNavContainer">
+          <nav>
+            <ul id="navigation">
+              <Link to="/">
+                <li>Home</li>
+              </Link>
+              <Link to="/Shop">
+                <li>Shop</li>
+              </Link>
+            </ul>
+          </nav>
+          <h3 id="logo">Audecca</h3>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,11 +1,41 @@
+#spacer {
+  height: 3rem;
+}
+
 #navContainer {
+  height: 3rem;
   display: flex;
-  background-color: rgb(71, 86, 85);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  
+
+  background-color: #222222;
   color: white;
+}
+
+#innerNavContainer {
+  width: 100%;
+
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 900px) {
+  #innerNavContainer {
+    width: 900px;
+    margin: auto;
+  }
 }
 
 #navigation {
   display: flex;
+}
+
+#logo {
+  padding: 1rem;
+  color: #898989;
 }
 
 li {

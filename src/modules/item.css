@@ -1,0 +1,44 @@
+.itemContainer {
+  background-color: rgba(255, 255, 240, 0.585);
+  width: 100%;
+  display: flex;
+}
+
+.itemImageContainer {
+  width: 8rem;
+  height: 8em;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemImage {
+  object-fit: cover;
+  width: 95%;
+  height: 95%;
+  object-position: 50% 50%;
+  border-radius: 1rem;
+  transition: transform 0.5s ease-in-out;
+}
+
+.quantityContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.quantityInput {
+  width: 2rem;
+  margin: 0 0.5rem;
+}
+
+.plusMinusContainer {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: .1rem 1rem;
+  background-color: #222222;
+  margin: .4rem;
+}
